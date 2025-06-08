@@ -1,0 +1,27 @@
+{  
+  "schemaVersion": 1,
+  "id": "roundtreescompanion",
+  "version": "1.20+_1.0.0",
+  "name": "Round Trees Companion",
+  "description": "Shifts wall signs and ladders forward when placed on logs to prevent z-fighting with round tree texture packs. Uses mixins for wall signs and resource pack model overrides for ladders.",
+  "authors": ["James"],
+  "environment": "*",
+  "icon": "assets/roundtreescompanion/icon.png",
+  "entrypoints": {
+    "client": ["com.roundtrees.roundtreescompanion.CompanionMod"],
+    "modmenu": ["com.roundtrees.roundtreescompanion.config.ModMenuIntegration"]
+  },
+  "mixins": [
+    {
+      "config": "mixins.roundtreescompanion.json",
+      "environment": "client"
+    }  ],    "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": ">=0.83.0",
+    "minecraft": ">=1.20.0 <=1.21.4"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "libra": "*"
+  }
+}

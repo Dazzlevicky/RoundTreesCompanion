@@ -1,0 +1,68 @@
+{
+  "text.autoconfig.roundtreescompanion.title": "RoundTrees Companion Config",
+  "text.autoconfig.roundtreescompanion.category.signs": "Wall Sign Settings",
+  "text.autoconfig.roundtreescompanion.category.ladders": "Ladder Settings",
+  "text.autoconfig.roundtreescompanion.category.advanced": "Advanced Settings",
+  
+  "text.autoconfig.roundtreescompanion.option.signs.enableSignShifting": "Enable Sign Shifting",
+  "text.autoconfig.roundtreescompanion.option.signs.enableSignShifting.@Tooltip[0]": "Enable or disable wall sign shifting to prevent z-fighting",
+  "text.autoconfig.roundtreescompanion.option.signs.enableSignShifting.@Tooltip[1]": "with round tree texture packs",
+  
+  "text.autoconfig.roundtreescompanion.option.signs.shiftDistancePixels": "Shift Distance (pixels)",
+  "text.autoconfig.roundtreescompanion.option.signs.shiftDistancePixels.@Tooltip[0]": "How far to shift wall signs forward (1-16 pixels)",
+  "text.autoconfig.roundtreescompanion.option.signs.shiftDistancePixels.@Tooltip[1]": "1 pixel = 1/16 block. Default: 1 pixel",
+  
+  "text.autoconfig.roundtreescompanion.option.signs.onlyOnLogs": "Only Shift on Logs",
+  "text.autoconfig.roundtreescompanion.option.signs.onlyOnLogs.@Tooltip[0]": "Only shift signs when placed on log blocks",
+  "text.autoconfig.roundtreescompanion.option.signs.onlyOnLogs.@Tooltip[1]": "Disable to shift signs on all block types",
+  
+  "text.autoconfig.roundtreescompanion.option.signs.enableDebugLogging": "Debug Logging",
+  "text.autoconfig.roundtreescompanion.option.signs.enableDebugLogging.@Tooltip[0]": "Print debug messages when signs are shifted",
+  
+  "text.autoconfig.roundtreescompanion.option.signs.enableForAllWoodTypes": "Enable for All Wood Types",
+  "text.autoconfig.roundtreescompanion.option.signs.enableForAllWoodTypes.@Tooltip[0]": "Enable shifting for all wood types including modded wood",
+  "text.autoconfig.roundtreescompanion.option.signs.enableForAllWoodTypes.@Tooltip[1]": "Disable to only affect vanilla wood types",
+  
+  "text.autoconfig.roundtreescompanion.option.signs.enableForStrippedLogs": "Enable for Stripped Logs",
+  "text.autoconfig.roundtreescompanion.option.signs.enableForStrippedLogs.@Tooltip[0]": "Enable shifting when signs are placed on stripped log blocks",
+  "text.autoconfig.roundtreescompanion.option.signs.enableForStrippedLogs.@Tooltip[1]": "Usually not needed for round tree packs",
+  
+  "text.autoconfig.roundtreescompanion.option.signs.enableForCustomLogs": "Enable for Custom Logs",
+  "text.autoconfig.roundtreescompanion.option.signs.enableForCustomLogs.@Tooltip[0]": "Enable shifting for modded logs that use the #logs tag",
+  "text.autoconfig.roundtreescompanion.option.signs.enableForCustomLogs.@Tooltip[1]": "Provides compatibility with other wood mods",
+  
+  "text.autoconfig.roundtreescompanion.option.ladders.enableLadderShifting": "Enable Ladder Shifting",
+  "text.autoconfig.roundtreescompanion.option.ladders.enableLadderShifting.@Tooltip[0]": "Enable or disable ladder model shifting to prevent z-fighting",
+  "text.autoconfig.roundtreescompanion.option.ladders.enableLadderShifting.@Tooltip[1]": "with round tree texture packs",
+  
+  "text.autoconfig.roundtreescompanion.option.ladders.ladderZPosition": "Ladder Z Position",
+  "text.autoconfig.roundtreescompanion.option.ladders.ladderZPosition.@Tooltip[0]": "Fine-tune the ladder Z position (120-152)",
+  "text.autoconfig.roundtreescompanion.option.ladders.ladderZPosition.@Tooltip[1]": "Higher values move ladders further from walls. Default: 138",
+  
+  "text.autoconfig.roundtreescompanion.option.ladders.dynamicLadderAdjustment": "Dynamic Ladder Adjustment",
+  "text.autoconfig.roundtreescompanion.option.ladders.dynamicLadderAdjustment.@Tooltip[0]": "Automatically adjust ladder position based on wall texture",
+  "text.autoconfig.roundtreescompanion.option.ladders.dynamicLadderAdjustment.@Tooltip[1]": "Experimental feature for better compatibility",
+  
+  "text.autoconfig.roundtreescompanion.option.ladders.ladderDepthSensitivity": "Ladder Depth Sensitivity",
+  "text.autoconfig.roundtreescompanion.option.ladders.ladderDepthSensitivity.@Tooltip[0]": "How sensitive the dynamic adjustment is (1-10)",
+  "text.autoconfig.roundtreescompanion.option.ladders.ladderDepthSensitivity.@Tooltip[1]": "Higher values = more aggressive adjustments",
+  
+  "text.autoconfig.roundtreescompanion.option.advanced.enablePerformanceOptimizations": "Performance Optimizations",
+  "text.autoconfig.roundtreescompanion.option.advanced.enablePerformanceOptimizations.@Tooltip[0]": "Enable performance optimizations for rendering",
+  "text.autoconfig.roundtreescompanion.option.advanced.enablePerformanceOptimizations.@Tooltip[1]": "May reduce lag in worlds with many signs",
+  
+  "text.autoconfig.roundtreescompanion.option.advanced.enableBiomeSpecificSettings": "Biome-Specific Settings",
+  "text.autoconfig.roundtreescompanion.option.advanced.enableBiomeSpecificSettings.@Tooltip[0]": "Allow different shift settings per biome",
+  "text.autoconfig.roundtreescompanion.option.advanced.enableBiomeSpecificSettings.@Tooltip[1]": "Advanced feature for resource pack creators",
+  
+  "text.autoconfig.roundtreescompanion.option.advanced.updateFrequency": "Update Frequency",
+  "text.autoconfig.roundtreescompanion.option.advanced.updateFrequency.@Tooltip[0]": "How often to check for shift updates (1-100 ticks)",
+  "text.autoconfig.roundtreescompanion.option.advanced.updateFrequency.@Tooltip[1]": "Lower values = more responsive, higher CPU usage",
+  
+  "text.autoconfig.roundtreescompanion.option.advanced.enableCompatibilityMode": "Compatibility Mode",
+  "text.autoconfig.roundtreescompanion.option.advanced.enableCompatibilityMode.@Tooltip[0]": "Enable compatibility with other rendering mods",
+  "text.autoconfig.roundtreescompanion.option.advanced.enableCompatibilityMode.@Tooltip[1]": "May reduce performance but improves mod compatibility",
+  
+  "text.autoconfig.roundtreescompanion.option.advanced.enableTelemetry": "Enable Telemetry",
+  "text.autoconfig.roundtreescompanion.option.advanced.enableTelemetry.@Tooltip[0]": "Collect anonymous usage data to improve the mod"
+}
